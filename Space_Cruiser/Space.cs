@@ -86,7 +86,7 @@ namespace Space_Cruiser
                 }
             }
 
-            PaintTimer.Interval = 33;//30 FPS
+            PaintTimer.Interval = 66;//30 FPS
 
             PaintTimer.Tick += new EventHandler(PaintTimer_Tick);
 
